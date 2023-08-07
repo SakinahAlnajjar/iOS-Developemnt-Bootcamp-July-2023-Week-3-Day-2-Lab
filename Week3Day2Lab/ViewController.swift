@@ -29,7 +29,6 @@ class ViewController: UIViewController {
         
         firstLabel.text = "Personalize your feed"
         secondLabel.text = "Select 10 or more topics"
-        
     }
 }
 
