@@ -13,6 +13,8 @@
 		F793F6F52A81707000D23830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F793F6F32A81707000D23830 /* Main.storyboard */; };
 		F793F6F72A81707300D23830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F793F6F62A81707300D23830 /* Assets.xcassets */; };
 		F793F6FA2A81707300D23830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F793F6F82A81707300D23830 /* LaunchScreen.storyboard */; };
+		F793F7022A81764B00D23830 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F793F7012A81764B00D23830 /* CollectionViewCell.swift */; };
+		F793F7042A81787000D23830 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F793F7032A81787000D23830 /* SectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F793F6F62A81707300D23830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F793F6F92A81707300D23830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F793F6FB2A81707300D23830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F793F7012A81764B00D23830 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F793F7032A81787000D23830 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F793F6F62A81707300D23830 /* Assets.xcassets */,
 				F793F6F82A81707300D23830 /* LaunchScreen.storyboard */,
 				F793F6FB2A81707300D23830 /* Info.plist */,
+				F793F7012A81764B00D23830 /* CollectionViewCell.swift */,
+				F793F7032A81787000D23830 /* SectionHeader.swift */,
 			);
 			path = Week3Day2Lab;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				F793F6F22A81707000D23830 /* ViewController.swift in Sources */,
 				F793F6EE2A81707000D23830 /* AppDelegate.swift in Sources */,
+				F793F7042A81787000D23830 /* SectionHeader.swift in Sources */,
+				F793F7022A81764B00D23830 /* CollectionViewCell.swift in Sources */,
 				F793F6F02A81707000D23830 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
